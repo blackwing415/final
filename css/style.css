@@ -11,11 +11,16 @@ body {
 }
 
 #wrapper {
-  margin: 0 auto;
-  width: auto;
+  width: 100%;
   height: 16100px;
   transform-style: inherit;
   }
+
+  #wrapper2 {
+    width: 1200px;
+    height: auto;
+    transform-style: inherit;
+    }
 
 #outer {
  background-image: url(http://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2014/02/snow.png);
@@ -26,6 +31,54 @@ body {
  height: 16100px;
  color: white;
   }
+
+header{
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+nav{
+  padding-top: 10px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 24px;
+  color: white;
+}
+a{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 24px;
+  color: white;
+}
+
+.about{
+  margin-top: 50px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 24px;
+  color: white;
+}
+
+.idea{
+  margin-top: 50px;
+  margin-left: 20px;
+  color: white;
+}
+.refrences{
+  margin-top: 50px;
+  margin-left: 20px;
+  line-height: 2em;
+}
+h2{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px;
+  color: white;
+}
+ul{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+
 
 
 /*Floating Stuff*/
@@ -50,13 +103,13 @@ p{
   font-size: 72px;
   text-align: center;
   position: relative;
-  top: 130px;
+  top: 90px;
   left: 0;
   z-index: 5;
 }
 .l_cloud_01{
   position: relative;
-  top: -125px;
+  top: -165px;
   left: 70px;
   z-index: 1;
 }
