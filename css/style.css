@@ -1,0 +1,331 @@
+/*HTML*/
+
+html {
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #003366;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: auto;
+  height: 16100px;
+  transform-style: inherit;
+  }
+
+#outer {
+ background-image: url(http://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2014/02/snow.png);
+  }
+
+#inner {
+ background-image: url(http://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2014/02/snow2.png);
+ height: 16100px;
+ color: white;
+  }
+
+
+/*Floating Stuff*/
+  .float {
+    position: absolute;
+    display: inline-block;
+    transform-style: inherit;
+    text-shadow: 5px 10px 20px #000;
+    }
+
+
+
+/*Objects*/
+
+p{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px;
+}
+
+.begin{
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 72px;
+  text-align: center;
+  position: relative;
+  top: 130px;
+  left: 0;
+  z-index: 5;
+}
+.l_cloud_01{
+  position: relative;
+  top: -125px;
+  left: 70px;
+  z-index: 1;
+}
+
+.diameter{
+  position: relative;
+  top: 1000px;
+  left: 70px;
+  z-index: 10;
+}
+
+.earth{
+  margin-top: 150px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.d_cloud_01{
+  position: relative;
+  top: -300px;
+  left: 300px;
+  z-index: 10;
+}
+
+.rocket{
+  position: fixed;
+  transform: rotate(90deg);
+  top: 410px;
+  left: 500px;
+  z-index: 8;
+}
+
+
+.satellite{
+  position: relative;
+  top: 0;
+  left: 400px;
+  z-index: 1;
+}
+
+.ast_01{
+  position: relative;
+  top: 100px;
+  left: 400px;
+  z-index: 10;
+}
+
+.ast_02{
+  position: relative;
+  top: 100px;
+  left: 500px;
+  z-index: 2;
+}
+
+
+
+.station{
+margin-top: 300px;
+}
+
+.iss{
+  position: relative;
+  top: 0;
+  left: 200px;
+  z-index: 1;
+}
+
+.iss2{
+  position: relative;
+  top: -200px;
+  left: 400px;
+  z-index: 2;
+}
+
+
+
+
+.mars{
+  margin-top: 300px;
+}
+.d_cloud_02{
+  position: relative;
+  top: 0;
+  left: 400px;
+  z-index: 2;
+}
+.planet{
+  position: relative;
+  top: -250px;
+  left: 700px;
+  z-index: 2;
+}
+.distance{
+  position: relative;
+  top: 300px;
+  left: 0;
+  z-index: 10;
+}
+
+
+
+
+
+
+.moonfo{
+  margin-top: 800px;
+}
+.days{
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.scroll{
+  position: relative;
+  top: 800px;
+  left: 500px;
+  z-index: 12;
+}
+.evil{
+  position: relative;
+  top: 1500px;
+  left: 100px;
+  z-index: 2;
+}
+
+
+
+
+
+
+.moonthings{
+  margin-top: 4000px;
+}
+.arrive{
+  text-align: center;
+  position: relative;
+  top: 200px;
+  left: 500px;
+  z-index: 10;
+}
+.l_cloud_02{
+  position: relative;
+  top: 500px;
+  left: 0;
+  z-index: 1;
+}
+.moon{
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.l_cloud_03{
+  position: relative;
+  top: -500px;
+  left: 250px;
+  z-index: 10;
+}
+.ast_03{
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+
+.ast_05{
+  position: relative;
+  top: 0;
+  left: 500px;
+  z-index: 9;
+}
+.where{
+  position: relative;
+  top: 0;
+  left: 300px;
+  z-index: 2;
+}
+
+
+.end{
+  margin: 0 auto;
+  margin-top: 500px;
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 72px;
+  text-align: center;
+  text-shadow: 5px 10px 20px #000;
+}
+
+.ender{
+  font-size: 100px;
+}
+
+
+
+.galaxy{
+  color: lightblue;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 5px 10px 20px #000;
+  position: relative;
+  top: 700px;
+  left: 0;
+  z-index: 9;
+}
+
+
+.starkiller{
+margin-top: 1700px;
+margin-left: auto;
+}
+.star{
+  position: relative;
+  top: 200px;
+  left: 0;
+  z-index: 9;
+}
+.oh{
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 72px;
+  text-align: center;
+  text-shadow: 5px 10px 20px #000;
+  position: relative;
+  top: -400px;
+  left: 0;
+  z-index: 10;
+}
+
+
+
+
+/*snow*/
+#snow{
+	background: none;
+	font-family: Androgyne;
+	background-image: url('http://www.wearewebstars.dk/codepen/img/s2.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	height: 16000px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 180s linear infinite;
+	-moz-animation: snow 180s linear infinite;
+	-ms-animation: snow 180s linear infinite;
+	animation: snow 180s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
